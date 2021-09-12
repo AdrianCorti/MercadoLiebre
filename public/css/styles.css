@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.inicioheader{
+    padding: 5%;
+}
+
+.inicioheader p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.buscarbarra{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .buscarbarra .buscar{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .buscarbarra .iconobuscar{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+.logoheader{
+    width: 50%;
+    padding: 10px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.botonmenu{
+    text-align: center;
+}
+
+.botonmenu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productovender{
+    margin: 15px;
+    border-top: 1px solid #ebebeb;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+main article{
+    margin-bottom: 10px;
+}
+
+main section article{
+    background-color: #fff;
+}
+main section article i,
+.rebaja{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+}
+
+.precio{
+    display: flex;
+    flex-direction: row;
+}
+
+
+h3,
+.descripcion {
+    color: #666;
+    display: none;
+}
+
+.valor{
+    font-size: 18px;
+    width: 30%;
+}
+
+.rebaja{
+    width: 70%;
+}
+
+.rebaja,
+.descripcion{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*inicia el footer*/
+
+footer{
+    text-align: center;
+    background-color: white;
+}
+
+.texto-footer-titulo{
+    font-weight: bold;
+    margin: 1%;
+}
+
+.texto-footer{
+    margin: 1%;
+}
+
+.icono-footer{
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #03264C;
+}
+
+/*****************CELLPHONE***********************/
+@media (min-width:361px){
+    .descripcion {
+        display: block;
+    }
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 100%;
+    }
+
+}
+
+/*****************TABLET**********************/
+
+@media (min-width:769px){
+    main section article{
+        width: 48%;
+        margin: 1%;
+    }
+    header div .logoheader{
+        width: 30%;
+    }
+    header div .buscarbarra{
+        width: 30%;
+    }
+    header div .inicioheader p{
+        width: 30%;
+    }
+
+    .inicioheader{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+       
+}
+
+/*****************DESKTOP**********************/
+
+@media (min-width:1200px){
+    main section article{
+        width: 23%;
+        margin: 1%;
+    }
+}
+
+
+/*****************FORMULARIOS**********************/
+
+.datospersonales{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.tituloperfil{
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.perfil{
+    margin-left: 8%;
+}
+
+.interesestitulo{
+    margin-top: 10px;
+    margin-left: 9%;
+}
+.intereses{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11%;
+    width: 20%;
+}
+.botonenviar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5%;
+    text-align: center;
+}
+

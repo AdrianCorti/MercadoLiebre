@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Register</title>
+</head>
+<body>
+    <from method="POST" class="formulario" action="register.html">
+        <section class="datospersonales">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" minlength="2" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="domicilio">Fecha de nacimiento</label>
+            <input type="text" name="domicilio" id="domicilio">
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" name="usuario" id="usuario">
+            <label for="psw">Contraseña</label>
+            <input type="password" name="psw" id="psw">
+            <label for="psw">Repetir contraseña</label>
+            <input type="password" name="psw" id="repetirpsw">
+        </section>
+        <p class="tituloperfil">Perfil de comprador</p>
+        <section class="perfil">
+            <label for="perfil">Vendedor</label>
+            <input type="radio" name="perfil" id="vendedor" value="vendedor">
+            <label for="perfil">Comprador</label>
+            <input type="radio" name="perfil" id="comprador" value="comprador">
+        </section>
+        
+        <p class="interesestitulo">Categorias de interes</p>
+        <section class="intereses">
+            <div class="checkbox_items">
+                <label for="electro">Electro</label>
+                <input type="checkbox" name="intereses" id="electro" value="electro">
+            </div>
+            <div class="checkbox_items">
+                <label for="electro">Moda</label>
+                <input type="checkbox" name="intereses" id="moda" value="moda">
+            </div>
+            <div class="checkbox_items">
+                <label for="electro">Hogar</label>
+                <input type="checkbox" name="intereses" id="hogar" value="hogar">
+            </div>
+            <div class="checkbox_items">
+                <label for="electro">Jugueteria</label>
+                <input type="checkbox" name="intereses" id="jugueteria" value="jugueteria">
+            </div>
+            <div class="checkbox_items">
+                <label for="electro">Vida sana</label>
+                <input type="checkbox" name="intereses" id="vidasana" value="vidasana">
+            </div>
+        </section>
+        <div class="botonenviar">
+        <label for="enviar">Enviar</label>
+        <button type="submit">Enviar</button>
+        </div>  
+            
+        
+    </from>
+</body>
+</html>
